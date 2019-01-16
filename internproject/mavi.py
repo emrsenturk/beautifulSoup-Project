@@ -5,8 +5,6 @@ pages = [str(i) for i in range(1,5)]
 for page in pages:
     response = get('https://www.mavi.com/kadin/c/1?page=' + page + '#page=' + page )
 
-#url = 'https://www.mavi.com/kadin/c/1?page=6#page=6'
-#response = get(url)
 
 html_soup = BeautifulSoup(response.text, 'html.parser')
 type(html_soup)
