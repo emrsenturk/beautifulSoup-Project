@@ -6,4 +6,4 @@ I decided to continue the development of this project.
 To-Do
 
 1-Scraping into all pages using web scraping library. 
-2-Edit the rolling page problem.
+							2-Edit the rolling page problem.
